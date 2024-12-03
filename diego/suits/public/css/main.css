@@ -1,0 +1,184 @@
+/* Estilo del cuerpo */
+body {
+    background: url("../img/fondo5.jpg") fixed no-repeat center center; /* Fondo temático */
+    background-size: cover;
+    color: #fff;
+    font-family: "Segoe UI"; /* Fuente elegante */
+}
+
+/* Navbar temática de restaurante */
+.navbar {
+    background: linear-gradient(90deg, rgba(139, 0, 0, 0.9), rgba(255, 99, 71, 0.8)); /* Fondo degradado rojo oscuro */
+    border-bottom: 3px solid rgba(139, 69, 19, 0.8); /* Borde inferior marrón */
+    font-family: 'Georgia', serif; /* Tipografía elegante */
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Íconos y enlaces en la navbar */
+.navbar-brand, .navbar-nav .nav-link {
+    color: white; /* Texto blanco */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: rgb(255, 223, 186); /* Color dorado claro */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Efecto de sombra */
+    transform: scale(1.1); /* Efecto de zoom */
+}
+
+/* Botón activo en la navbar */
+.navbar-nav .nav-link.active {
+    background: rgba(255, 99, 71, 0.8);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.titulo-menu-dia {
+    font-size: 2.5em; /* Aumenta el tamaño del texto */
+    font-family: 'Brush Script MT', cursive; /* Fuente cursiva elegante */
+    color: rgb(139, 69, 19); /* Marrón oscuro */
+    text-align: center; /* Centra el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para hacerlo más llamativo */
+    margin-bottom: 20px; /* Espaciado inferior */
+    letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+/* Estilo de la tabla con temática de restaurante */
+.table {
+    background: rgba(255, 250, 240, 0.8); /* Fondo marfil semi-transparente */
+    border: 2px solid rgb(139, 69, 19); /* Contorno marrón */
+    border-radius: 10px; /* Bordes redondeados */
+    font-family: 'Segoe UI'; /* Tipografía cursiva */
+    color: rgb(85, 53, 30); /* Texto marrón oscuro */
+    text-align: left; /* Alineación del texto */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sutil sombra */
+}
+
+/* Encabezado de la tabla */
+.table thead th {
+    background: linear-gradient(135deg, rgba(139, 69, 19, 0.8), rgba(160, 82, 45, 0.8)); /* Degradado marrón */
+    color: white; /* Texto blanco */
+    border-bottom: 2px solid rgb(139, 69, 19); /* Borde inferior marrón */
+    font-size: 1.2em; /* Tamaño de letra más grande */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar texto */
+    padding: 10px;
+}
+
+/* Celdas del cuerpo de la tabla */
+.table tbody td {
+    background: rgba(255, 250, 240, 0.7); /* Fondo marfil más claro */
+    color: rgb(85, 53, 30); /* Texto marrón oscuro */
+    border: 1px solid rgba(139, 69, 19, 0.5); /* Borde marrón tenue */
+    font-size: 1.1em; /* Tamaño de letra más grande */
+    padding: 10px;
+}
+
+/* Filas alternadas */
+.table tbody tr:nth-child(even) {
+    background: rgba(255, 235, 205, 0.8); /* Fondo beige claro */
+}
+
+/* Hover en las filas */
+.table tbody tr:hover {
+    background: rgba(160, 82, 45, 0.5); /* Fondo marrón cálido al pasar el mouse */
+    color: white; /* Texto blanco */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Bordes de la tabla */
+.table-bordered {
+    border: 2px solid rgb(139, 69, 19); /* Contorno marrón */
+}
+
+/* Encabezado de tabla con sombra */
+.table thead {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+/* Botones de la tabla */
+.btn-primary {
+    background-color: rgba(139, 69, 19, 0.7); /* Fondo marrón semi-transparente */
+    border: 2px solid rgb(139, 69, 19); /* Contorno marrón */
+    color: white; /* Texto blanco */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(160, 82, 45); /* Fondo marrón sólido al pasar el mouse */
+    color: white; /* Texto blanco */
+}
+
+/* Inputs del formulario */
+.form-control {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    border: 2px solid rgb(139, 69, 19); /* Contorno marrón */
+    color: rgb(85, 53, 30); /* Texto marrón oscuro */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgb(139, 69, 19); /* Resplandor marrón al enfocar */
+}
+
+/* Encabezados generales */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Brush Script MT', cursive; /* Tipografía cursiva */
+    color: rgb(139, 69, 19); /* Marrón oscuro */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Contenedores */
+.card {
+    background: rgba(255, 250, 240, 0.9); /* Fondo marfil semi-transparente */
+    border: 2px solid rgb(139, 69, 19); /* Contorno marrón */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    color: rgb(85, 53, 30); /* Texto marrón oscuro */
+}
+.imagen-circulo {
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    border-radius: 50%; /* Convierte el contenedor en un círculo */
+    border: 2px solid rgba(139, 69, 19, 0.8); /* Borde marrón temático */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sutil sombra para el diseño */
+}
+.titulo-restaurante {
+    font-size: 3.5em; /* Tamaño grande */
+    font-family: 'Brush Script MT', cursive; /* Fuente cursiva elegante */
+    color: rgb(139, 69, 19); /* Marrón oscuro para el texto */
+    text-align: center; /* Centra el título */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4); /* Sombra llamativa */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border-bottom: 2px solid rgba(139, 69, 19, 0.8); /* Línea inferior decorativa */
+    padding-bottom: 10px; /* Espaciado con la línea inferior */
+    background: linear-gradient(to right, rgba(255, 250, 240, 0.7), rgba(255, 235, 205, 0.8)); /* Fondo degradado sutil */
+    border-radius: 10px; /* Bordes redondeados del fondo */
+    display: inline-block; /* Se adapta al tamaño del texto */
+}
+/* Estilo especial solo para el título 'Menú del Día' */
+.titulo-menu-dia {
+    font-size: 3em; /* Tamaño más grande para el título */
+    font-family: 'Brush Script MT', cursive; /* Fuente cursiva y elegante */
+    color: rgb(139, 69, 19); /* Color marrón oscuro */
+    text-align: center; /* Centrado del título */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4); /* Sombra suave para resaltar */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    border-bottom: 2px solid rgba(139, 69, 19, 0.8); /* Línea decorativa debajo */
+    padding-bottom: 10px; /* Espaciado con la línea */
+    background: linear-gradient(to right, rgba(255, 250, 240, 0.7), rgba(255, 235, 205, 0.8)); /* Fondo degradado suave */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; /* Aseguramos que ocupe el 100% de ancho disponible */
+    max-width: 600px; /* Limitamos el ancho máximo del título */
+    margin-left: auto; /* Centrado automático del contenedor */
+    margin-right: auto; /* Centrado automático del contenedor */
+}
+
+
+
